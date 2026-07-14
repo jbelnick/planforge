@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.vite-cache/
+*.tsbuildinfo
+.env*
+# Generated TLS material must never be staged; tailscale serve manages its own certs.
+*.key
+*.crt
+*.pem
+.DS_Store
+.worktrees/

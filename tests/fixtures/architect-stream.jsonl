@@ -1,0 +1,5 @@
+{"type":"system","subtype":"init","model":"claude-opus-4-5","session_id":"session-1"}
+{"type":"stream_event","event":{"type":"message_start","message":{"id":"message-1"},"ttft_ms":42}}
+{"type":"stream_event","event":{"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"Plan ready."}}}
+{"type":"assistant","message":{"id":"message-2","content":[{"type":"tool_use","id":"toolu-1","name":"propose_plan","input":{"runId":"run-1","title":"Tracer","plan":"Fix the failing test."}}]}}
+{"type":"user","message":{"content":[{"type":"tool_result","tool_use_id":"toolu-1","content":"{\"runId\":\"run-1\",\"verdict\":\"approved\"}","is_error":false}]}}

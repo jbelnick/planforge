@@ -1,0 +1,16 @@
+{
+  "verifiers": [
+    {
+      "name": "planforge build",
+      "command": "{ [ -d node_modules ] || npm ci --prefer-offline --no-audit --no-fund; } && npm run build"
+    },
+    {
+      "name": "planforge tests",
+      "command": "{ [ -d node_modules ] || npm ci --prefer-offline --no-audit --no-fund; } && npm test"
+    },
+    {
+      "name": "planforge typecheck",
+      "command": "npx tsc -p tsconfig.json --noEmit"
+    }
+  ]
+}

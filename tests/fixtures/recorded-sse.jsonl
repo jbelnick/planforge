@@ -1,0 +1,5 @@
+{"event":"plan_proposed","data":{"runId":"run-ui","title":"Tracer plan","plan":"Fix the failing fixture test."}}
+{"event":"codex_stream","data":{"runId":"run-ui","chunk":"Codex is applying the fix."}}
+{"event":"verifier_result","data":{"runId":"run-ui","status":"pass","summary":"fixture verifier passed"}}
+{"event":"architect_grade","data":{"runId":"run-ui","grade":"Pass: verifier output is green."}}
+{"event":"sign_off","data":{"runId":"run-ui","status":"signed_off"}}
